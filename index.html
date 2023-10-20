@@ -1,0 +1,141 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="adaptive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="game-1">
+      <h2 class="game-1__title">Камінь - ножиці - папір</h2>
+      <div class="game-1__conteiner">
+        <div class="game-1__box">
+          <button class="game-1__button">
+            <img src="./img/game-1__2.png" alt="" class="game-1__img" />
+          </button>
+          <button class="game-1__button">
+            <img src="./img/game-1__1.png" alt="" class="game-1__img" />
+          </button>
+          <button class="game-1__button">
+            <img src="./img/game-1__3.png" alt="" class="game-1__img" />
+          </button>
+        </div>
+        <div class="game-1__box-2">
+          <p class="game-1__text">
+            Рахунок: <br />
+            Комп’ютер - <span class="game-1__text2">0</span> <br />
+            Ви - <span class="game-1__text2">0</span>
+          </p>
+        </div>
+      </div>
+      <p class="result">Нічія</p>
+      <p class="pk">Варіант компютера</p>
+    </div>
+    <div class="game-2">
+      <div class="game-2__conteiner">
+        <input type="text" placeholder="Введить число" class="input" />
+        <div class="game-2__box">
+          <button class="game-2__button">+</button>
+          <button class="game-2__button">-</button>
+          <button class="game-2__button">*</button>
+          <button class="game-2__button">/</button>
+        </div>
+        <input type="text" placeholder="Введить число" class="input" />
+        <button class="game-2__button">=</button>
+        <span class="input">Результат</span>
+      </div>
+    </div>
+    <div class="game-3">
+      <h2 class="game-3__title">Калькулятор часу</h2>
+      <div class="game-3__conteiner">
+        <div class="game-3__box">
+          <input
+            type="text"
+            class="game-3__input input"
+            placeholder="Введіть число"
+          />
+          <button class="game-3__button">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="6.52174"
+                cy="6.52174"
+                r="5.52174"
+                stroke="white"
+                stroke-width="2"
+              />
+              <path
+                d="M14.2929 15.7071C14.6834 16.0976 15.3166 16.0976 15.7071 15.7071C16.0976 15.3166 16.0976 14.6834 15.7071 14.2929L14.2929 15.7071ZM11.468 10.0538L10.7609 9.34665L9.34666 10.7609L10.0538 11.468L11.468 10.0538ZM15.7071 14.2929L11.468 10.0538L10.0538 11.468L14.2929 15.7071L15.7071 14.2929Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+        </div>
+        <p class="game-3__text">..<span class="span"> </span>....<span class="span"> ... </span>....<span class="span"> ... </span> .....</p>
+        <p class="game-3__result">0</p>
+      </div>
+    </div>
+    <div class="game-4">
+      <h2 class="game-4__title">Футбол</h2>
+      <div class="game-4__conteiner">
+        <div class="game-4__box">
+          <img src="./img/game-4__fotbol.png" alt="" class="game-4__img" />
+        </div>
+      </div>
+    </div>
+    <div class="game-6">
+        <h2 class="game-6__title">Введіть 3 числа</h2>
+        <div class="game-6__conteiner">
+            <input type="text" placeholder="Введіть число" class="game-6__button">
+            <input type="text" placeholder="Введіть число" class="game-6__button">
+            <input type="text" placeholder="Введіть число" class="game-6__button">
+        </div>
+        <p class="game-6__text">Найбільше число, яке ви ввели - (число)</p>
+      </div>
+    <div class="game-5">
+      <h3 class="game-5__title">Наша команда</h3>
+      <div class="swiper sample-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/sample1.png" /></div>
+          <div class="swiper-slide"><img src="img/sample2.png" /></div>
+          <div class="swiper-slide"><img src="img/sample3.png" /></div>
+          <div class="swiper-slide"><img src="img/sample4.png" /></div>
+          <div class="swiper-slide"><img src="img/sample5.png" /></div>
+          <div class="swiper-slide"><img src="img/sample6.png" /></div>
+          <div class="swiper-slide"><img src="img/sample7.png" /></div>
+          <div class="swiper-slide"><img src="img/sample8.png" /></div>
+          <div class="swiper-slide"><img src="img/sample9.png" /></div>
+          <div class="swiper-slide"><img src="img/sample10.png" /></div>
+          <div class="swiper-slide"><img src="img/sample11.png" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <h3 class="game-5__text not"></h3>
+    </div>
+    <script src="game4.js"></script>
+    <script src="menu.js"></script>
+    <script src="game-7.js"></script>
+    <script src="game-5.js"></script>
+    <script src="game-6.js"></script>
+  </body>
+</html>

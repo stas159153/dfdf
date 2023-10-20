@@ -1,0 +1,33 @@
+@media(max-width:577px) {
+.game-1__conteiner{
+    margin: 0;
+}
+}
+@media(max-width:500px) {
+    .game-3__conteiner{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .sample-slider{
+      width:100%;
+  }
+  .sample-slider img{
+      width: 110%;
+  }
+    }
+    @media(max-width:833px) {
+      .game-2__conteiner{
+        display: flex;
+        flex-direction: column;
+
+      }
+      .game-1__conteiner{
+        margin: 0;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+        }
